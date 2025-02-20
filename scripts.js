@@ -11,11 +11,11 @@ const toCurrencyImage = document.getElementById("converted-to-img");
 
 // Objeto de moedas e bandeiras
 const currencyData = {
-    BRL: { name: "Real Brasileiro", img: "../ASSETS/logo-brasil.png", symbol: "R$" },
-    USD: { name: "Dólar Americano", img: "../ASSETS/logo-eua.png", symbol: "US$" },
-    EUR: { name: "Euro", img: "../ASSETS/logo-euro.png", symbol: "€" },
-    GBP: { name: "Libra Esterlina", img: "../ASSETS/logo-libra.png", symbol: "£" },
-    BTC: { name: "Bitcoin", img: "../ASSETS/cryto-bitcoin.png", symbol: "₿" }
+    BRL: { name: "Real Brasileiro", img: "./ASSETS/logo-brasil.png", symbol: "R$" },
+    USD: { name: "Dólar Americano", img: "./ASSETS/logo-eua.png", symbol: "US$" },
+    EUR: { name: "Euro", img: "./ASSETS/logo-euro.png", symbol: "€" },
+    GBP: { name: "Libra Esterlina", img: "./ASSETS/logo-libra.png", symbol: "£" },
+    BTC: { name: "Bitcoin", img: "./ASSETS/cryto-bitcoin.png", symbol: "₿" }
 };
 
 async function fetchExchangeRates(baseCurrency) {
